@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePageLocators {
 	
-	@FindBy(css = "#nav-link-yourAccount [class='nav-line-1']")
+	@FindBy(css = "#nav-link-yourAccount [class='nav-line-2']")
 	public WebElement HomePageHelloSignin;
 	
 	@FindBy(css = "#nav-flyout-ya-signin .nav-action-inner")
