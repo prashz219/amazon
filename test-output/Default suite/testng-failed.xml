@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amazon.testcases.SignInTest">
+      <class name="com.amazon.testcases.NavigateToSignInPageTest">
         <methods>
           <include name="setUp"/>
+          <include name="navigateToSignInPageTest"/>
           <include name="tearDown"/>
-          <include name="signInTest"/>
         </methods>
-      </class> <!-- com.amazon.testcases.SignInTest -->
+      </class> <!-- com.amazon.testcases.NavigateToSignInPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
