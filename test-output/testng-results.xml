@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65" started-at="2019-03-15T07:34:28Z" finished-at="2019-03-15T07:34:28Z">
+  <suite name="Default suite" duration-ms="26" started-at="2019-03-15T08:02:07Z" finished-at="2019-03-15T08:02:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65" started-at="2019-03-15T07:34:28Z" finished-at="2019-03-15T07:34:28Z">
+    <test name="Default test" duration-ms="26" started-at="2019-03-15T08:02:07Z" finished-at="2019-03-15T08:02:07Z">
       <class name="com.amazon.rough.TestClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.rough.TestClass@f6c48ac]" name="setUp" is-config="true" duration-ms="10752" started-at="2019-03-15T07:34:18Z" finished-at="2019-03-15T07:34:28Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.rough.TestClass@f6c48ac]" name="setUp" is-config="true" duration-ms="6968" started-at="2019-03-15T08:02:00Z" finished-at="2019-03-15T08:02:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testClass()[pri:0, instance:com.amazon.rough.TestClass@f6c48ac]" name="testClass" duration-ms="5" started-at="2019-03-15T07:34:28Z" finished-at="2019-03-15T07:34:28Z">
+        <test-method status="PASS" signature="testClass()[pri:0, instance:com.amazon.rough.TestClass@f6c48ac]" name="testClass" duration-ms="4" started-at="2019-03-15T08:02:07Z" finished-at="2019-03-15T08:02:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClass -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.rough.TestClass@f6c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-03-15T07:34:28Z" finished-at="2019-03-15T07:34:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.rough.TestClass@f6c48ac]" name="tearDown" is-config="true" duration-ms="673" started-at="2019-03-15T08:02:07Z" finished-at="2019-03-15T08:02:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

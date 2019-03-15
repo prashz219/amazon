@@ -7,6 +7,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
@@ -25,6 +26,7 @@ public class Page {
 	public static Properties config = new Properties();
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
+	public static String browser;
 	public static WebDriverWait wait;
 	
 	@BeforeSuite
@@ -69,10 +71,14 @@ public class Page {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		
-		
-		}
+}
 
+	public static void click(WebElement element) {
+
+		element.click();
+		//log.debug("Clicking on an Element : "+element);
+		//test.log(LogStatus.INFO, "Clicking on : " + element);
+	}
 	
 
 	@AfterSuite
