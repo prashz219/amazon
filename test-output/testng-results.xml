@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="916" started-at="2019-03-15T10:33:35Z" finished-at="2019-03-15T10:33:36Z">
+  <suite name="Amazon Test Automation" duration-ms="800" started-at="2019-03-15T11:02:17Z" finished-at="2019-03-15T11:02:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="916" started-at="2019-03-15T10:33:35Z" finished-at="2019-03-15T10:33:36Z">
-      <class name="com.amazon.testcases.SignInTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.testcases.SignInTest@57fffcd7]" name="setUp" is-config="true" duration-ms="7501" started-at="2019-03-15T10:33:27Z" finished-at="2019-03-15T10:33:35Z">
+    <test name="Navigate to Sign In Page Test" duration-ms="800" started-at="2019-03-15T11:02:17Z" finished-at="2019-03-15T11:02:17Z">
+      <class name="com.amazon.testcases.NavigateToSignInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.testcases.NavigateToSignInPageTest@57fffcd7]" name="setUp" is-config="true" duration-ms="6788" started-at="2019-03-15T11:02:10Z" finished-at="2019-03-15T11:02:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signInTest()[pri:0, instance:com.amazon.testcases.SignInTest@57fffcd7]" name="signInTest" duration-ms="892" started-at="2019-03-15T10:33:35Z" finished-at="2019-03-15T10:33:36Z">
+        <test-method status="PASS" signature="navigateToSignInPageTest()[pri:0, instance:com.amazon.testcases.NavigateToSignInPageTest@57fffcd7]" name="navigateToSignInPageTest" duration-ms="777" started-at="2019-03-15T11:02:17Z" finished-at="2019-03-15T11:02:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signInTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testcases.SignInTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="689" started-at="2019-03-15T10:33:36Z" finished-at="2019-03-15T10:33:37Z">
+        </test-method> <!-- navigateToSignInPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testcases.NavigateToSignInPageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="669" started-at="2019-03-15T11:02:18Z" finished-at="2019-03-15T11:02:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.amazon.testcases.SignInTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.amazon.testcases.NavigateToSignInPageTest -->
+    </test> <!-- Navigate to Sign In Page Test -->
+  </suite> <!-- Amazon Test Automation -->
 </testng-results>

@@ -16,8 +16,7 @@ import org.testng.annotations.BeforeSuite;
 public class Page {
 
 	/*
-	 * Initializing WebDriver ExcelReader Logs WebDriverWait ExtentReports
-	 * 
+	 * Initializing WebDriver Logs WebDriverWait ExtentReports ExcelReader
 	 * 
 	 * 
 	 */
@@ -28,14 +27,14 @@ public class Page {
 	public static FileInputStream fis;
 	public static String browser;
 	public static WebDriverWait wait;
-	
+
 	@BeforeSuite
 	public void setUp() {
 
-
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",
+				System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
 		driver = new ChromeDriver();
-		
+
 		try {
 			fis = new FileInputStream(
 					System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties");
@@ -45,45 +44,28 @@ public class Page {
 		}
 		try {
 			config.load(fis);
-			//log.debug("Config file loaded !!!");
+			// log.debug("Config file loaded !!!");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-		try {
-			fis = new FileInputStream(
-					System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties");
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		try {
-			OR.load(fis);
-			//log.debug("OR file loaded !!!");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
 		driver.get(config.getProperty("testsiteurl"));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-}
+
+	}
 
 	public static void click(WebElement element) {
 
 		element.click();
-		//log.debug("Clicking on an Element : "+element);
-		//test.log(LogStatus.INFO, "Clicking on : " + element);
+		// log.debug("Clicking on an Element : "+element);
+		// test.log(LogStatus.INFO, "Clicking on : " + element);
 	}
-	
 
 	@AfterSuite
 	public void tearDown() {
-		
+
 		driver.quit();
 
 	}
