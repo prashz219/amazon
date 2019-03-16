@@ -15,6 +15,10 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.amazon.utilities.ExtentManager;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
 public class Page {
 
 	/*
@@ -29,10 +33,11 @@ public class Page {
 	public static FileInputStream fis;
 	public static String browser;
 	public static Logger log = Logger.getLogger("devpinoyLogger");
+	public ExtentReports rep = ExtentManager.getInstance();
+	public static ExtentTest test;
 
 	@BeforeSuite
 	public void setUp() {
-
 
 		try {
 			fis = new FileInputStream(
@@ -47,16 +52,14 @@ public class Page {
 			e.printStackTrace();
 		}
 
-		
 		if (config.getProperty("browser").equals("chrome")) {
-			
-		
-		System.setProperty("webdriver.chrome.driver",
-				System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
-		driver = new ChromeDriver();
-		log.debug("Launching Chrome");
+
+			System.setProperty("webdriver.chrome.driver",
+					System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
+			driver = new ChromeDriver();
+			log.debug("Launching Chrome");
 		} else if (config.getProperty("browser").equals("firefox")) {
-			//System.setProperty("webdriver.gecko.driver", "gecko.exe");
+			// System.setProperty("webdriver.gecko.driver", "gecko.exe");
 			System.setProperty("webdriver.gecko.driver",
 					System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\geckodriver.exe");
 			driver = new FirefoxDriver();
@@ -65,10 +68,9 @@ public class Page {
 			System.setProperty("webdriver.ie.driver",
 					System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
-			
-			
+
 		}
-		
+
 		driver.get(config.getProperty("testsiteurl"));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -78,8 +80,8 @@ public class Page {
 	public static void click(WebElement element) {
 
 		element.click();
-		log.debug("Clicking on an Element : "+element);
-		//test.log(LogStatus.INFO, "Clicking on : " + element);
+		log.debug("Clicking on an Element : " + element);
+		// test.log(LogStatus.INFO, "Clicking on : " + element);
 	}
 
 	@AfterSuite

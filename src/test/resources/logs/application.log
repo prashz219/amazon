@@ -1,1 +1,3 @@
-15/03/2019 22:51:58 devpinoyLogger Config file loaded !!!
+16/03/2019 22:28:15 devpinoyLogger Config file loaded !!!
+16/03/2019 22:28:18 devpinoyLogger Launching Chrome
+16/03/2019 22:28:44 devpinoyLogger Clicking on an Element : Proxy element for: DefaultElementLocator 'By.all({By.cssSelector: #nav-link-yourAccount [class='nav-line-2'],By.xpath: //*[contains(text(),'Hello, Sign in')]})'

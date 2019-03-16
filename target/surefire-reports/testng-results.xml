@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Test Automation" duration-ms="21408" started-at="2019-03-16T16:58:23Z" finished-at="2019-03-16T16:58:44Z">
+    <groups>
+    </groups>
+    <test name="Navigate to Sign In Page Test" duration-ms="21408" started-at="2019-03-16T16:58:23Z" finished-at="2019-03-16T16:58:44Z">
+      <class name="com.amazon.testcases.NavigateToSignInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.testcases.NavigateToSignInPageTest@394e1a0f]" name="setUp" is-config="true" duration-ms="7546" started-at="2019-03-16T16:58:15Z" finished-at="2019-03-16T16:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToSignInPageTest()[pri:0, instance:com.amazon.testcases.NavigateToSignInPageTest@394e1a0f]" name="navigateToSignInPageTest" duration-ms="21211" started-at="2019-03-16T16:58:23Z" finished-at="2019-03-16T16:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignInPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testcases.NavigateToSignInPageTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="687" started-at="2019-03-16T16:58:44Z" finished-at="2019-03-16T16:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.testcases.NavigateToSignInPageTest -->
+    </test> <!-- Navigate to Sign In Page Test -->
+  </suite> <!-- Amazon Test Automation -->
+</testng-results>

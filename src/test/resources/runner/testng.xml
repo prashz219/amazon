@@ -2,13 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Amazon Test Automation">
 
+	<listeners>
 
-	
-  <test name="Navigate to Sign In Page Test">
-  		<classes>
+		<listener class-name="com.amazon.listeners.CustomListeners" />
+
+
+	</listeners>
+
+	<test name="Navigate to Sign In Page Test">
+		<classes>
 			<class name="com.amazon.testcases.NavigateToSignInPageTest" />
 		</classes>
-  </test> <!-- Test -->
-  
-  
+	</test> <!-- Test -->
+
+
 </suite> <!-- Suite -->
