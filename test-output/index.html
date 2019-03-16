@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Amazon_Test_Automation">
-              <span class="suite-name border-skipped">Amazon Test Automation</span>
+              <span class="suite-name border-passed">Amazon Test Automation</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Amazon_Test_Automation" class="hide-methods skipped suite-Amazon_Test_Automation"> (hide)</a> <!-- hide-methods skipped suite-Amazon_Test_Automation -->
-                      <a href="#" panel-name="suite-Amazon_Test_Automation" class="show-methods skipped suite-Amazon_Test_Automation"> (show)</a> <!-- show-methods skipped suite-Amazon_Test_Automation -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Amazon_Test_Automation" class="hide-methods passed suite-Amazon_Test_Automation"> (hide)</a> <!-- hide-methods passed suite-Amazon_Test_Automation -->
+                      <a href="#" panel-name="suite-Amazon_Test_Automation" class="show-methods passed suite-Amazon_Test_Automation"> (show)</a> <!-- show-methods passed suite-Amazon_Test_Automation -->
                     </span>
-                    <div class="method-list-content skipped suite-Amazon_Test_Automation">
+                    <div class="method-list-content passed suite-Amazon_Test_Automation">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Amazon_Test_Automation" title="com.amazon.testcases.NavigateToSignInPageTest" hash-for-method="navigateToSignInPageTest">navigateToSignInPageTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Amazon_Test_Automation -->
+                    </div> <!-- method-list-content passed suite-Amazon_Test_Automation -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Amazon_Test_Automation" class="panel Amazon_Test_Automation">
-          <div class="suite-Amazon_Test_Automation-class-skipped">
+          <div class="suite-Amazon_Test_Automation-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.amazon.testcases.NavigateToSignInPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,39 +128,10 @@
                   <a name="navigateToSignInPageTest">
                   </a> <!-- navigateToSignInPageTest -->
                   <span class="method-name">navigateToSignInPageTest</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100%
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-IND3M95&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: driver.version: InternetExplorerDriver
-remote stacktrace: 
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
-	at com.amazon.base.Page.setUp(Page.java:67)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Amazon_Test_Automation-class-skipped -->
+          </div> <!-- suite-Amazon_Test_Automation-class-passed -->
         </div> <!-- panel Amazon_Test_Automation -->
         <div panel-name="test-xml-Amazon_Test_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -217,12 +188,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'navigateToSignInPageTest')
 data.setCell(0, 2, 'com.amazon.testcases.NavigateToSignInPageTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 31012);
 window.suiteTableData['Amazon_Test_Automation']= { tableData: data, tableDiv: 'times-div-Amazon_Test_Automation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-Amazon_Test_Automation">
               </div> <!-- times-div-Amazon_Test_Automation -->
             </div> <!-- times-div -->
@@ -250,15 +221,17 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.amazon.testcases.NavigateToSignInPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">navigateToSignInPageTest</span>
-                <span class="method-start">-1552670518346 ms</span>
+                <span class="method-start">9821 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40948 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
