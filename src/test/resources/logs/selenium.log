@@ -1,8 +1,9 @@
-22:28:15,851 DEBUG devpinoyLogger:50 - Config file loaded !!!
-22:28:18,649 DEBUG devpinoyLogger:60 - Launching Chrome
-22:28:44,626 DEBUG devpinoyLogger:83 - Clicking on an Element : Proxy element for: DefaultElementLocator 'By.all({By.cssSelector: #nav-link-yourAccount [class='nav-line-2'],By.xpath: //*[contains(text(),'Hello, Sign in')]})'
-22:28:44,644 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-22:28:44,645 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-22:28:44,645 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-22:28:44,646 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-22:28:44,646 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/prash/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+22:33:37,245 DEBUG devpinoyLogger:52 - Config file loaded !!!
+22:33:40,961 DEBUG devpinoyLogger:62 - Launching Chrome
+22:33:45,992 DEBUG devpinoyLogger:93 - Mouse Hover on Element : [[ChromeDriver: chrome on XP (2f7fe426f472a6998b57645cd4d04577)] -> xpath: //span[text()='Hello, Sign in']]
+22:33:57,105 DEBUG devpinoyLogger:86 - Clicking on an Element : Proxy element for: DefaultElementLocator 'By.cssSelector: #nav-flyout-ya-signin .nav-action-inner'
+22:33:57,176 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+22:33:57,176 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+22:33:57,176 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+22:33:57,176 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+22:33:57,191 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/prash/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

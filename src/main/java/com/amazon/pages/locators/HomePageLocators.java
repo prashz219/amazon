@@ -15,5 +15,10 @@ public class HomePageLocators {
 	})
 	public WebElement HomePageHelloSignin;
 	
-
+	@FindBy(xpath="//span[text()='Hello, Sign in']")
+	public WebElement HelloSignIn;
+	
+	@FindBy(css="#nav-flyout-ya-signin .nav-action-inner")
+	public WebElement SignIn;
+	
 }

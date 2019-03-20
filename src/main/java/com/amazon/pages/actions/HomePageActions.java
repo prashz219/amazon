@@ -20,7 +20,13 @@ public class HomePageActions extends Page {
 
 		click(home.HomePageHelloSignin);
 		return this;
+	}
+	
+	public HomePageActions mouseHoverandSignIn() {
 
+		mouseHover(home.HelloSignIn);
+		click(home.SignIn);
+		return this;
 	}
 
 }

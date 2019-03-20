@@ -1,5 +1,7 @@
 package com.amazon.testcases;
 
+import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.Test;
 
 import com.amazon.base.Page;
@@ -11,7 +13,9 @@ public class NavigateToSignInPageTest extends Page {
 	public void navigateToSignInPageTest() {
 
 		HomePageActions home = new HomePageActions();
-		home.gotoSigninPage();
+		home.mouseHoverandSignIn();
+		String expectedTitle = "Amazon Sign In";
+		assertEquals(driver.getTitle(), expectedTitle);
 
 	}
 

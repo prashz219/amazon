@@ -12,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -35,7 +36,8 @@ public class Page {
 	public static Logger log = Logger.getLogger("devpinoyLogger");
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
-
+	public static Actions action;
+	
 	@BeforeSuite
 	public void setUp() {
 
@@ -58,6 +60,7 @@ public class Page {
 					System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
 			driver = new ChromeDriver();
 			log.debug("Launching Chrome");
+			action = new Actions(driver);
 		} else if (config.getProperty("browser").equals("firefox")) {
 			// System.setProperty("webdriver.gecko.driver", "gecko.exe");
 			System.setProperty("webdriver.gecko.driver",
@@ -81,6 +84,13 @@ public class Page {
 
 		element.click();
 		log.debug("Clicking on an Element : " + element);
+		// test.log(LogStatus.INFO, "Clicking on : " + element);
+	}
+	
+	public static void mouseHover(WebElement element) {
+
+		action.moveToElement(element).perform();
+		log.debug("Mouse Hover on Element : " + element);
 		// test.log(LogStatus.INFO, "Clicking on : " + element);
 	}
 
