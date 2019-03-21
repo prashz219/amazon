@@ -1,6 +1,6 @@
-21/03/2019 23:29:58 devpinoyLogger Config file loaded !!!
-21/03/2019 23:30:03 devpinoyLogger Launching Chrome
-21/03/2019 23:30:38 devpinoyLogger Clicking on an Element : Proxy element for: DefaultElementLocator 'By.all({By.cssSelector: #nav-link-yourAccount [class='nav-line-2'],By.xpath: //*[contains(text(),'Hello, Sign in')]})'
-21/03/2019 23:30:39 devpinoyLogger Config file loaded !!!
-21/03/2019 23:30:41 devpinoyLogger Launching Chrome
-21/03/2019 23:30:45 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (6427be9629287c4721b9c76479287173)] -> css selector: [tabindex='14']]
+21/03/2019 23:51:35 devpinoyLogger Config file loaded !!!
+21/03/2019 23:51:39 devpinoyLogger Launching Chrome
+21/03/2019 23:52:14 devpinoyLogger Clicking on an Element : Proxy element for: DefaultElementLocator 'By.all({By.cssSelector: #nav-link-yourAccount [class='nav-line-2'],By.xpath: //*[contains(text(),'Hello, Sign in')]})'
+21/03/2019 23:52:15 devpinoyLogger Config file loaded !!!
+21/03/2019 23:52:17 devpinoyLogger Launching Chrome
+21/03/2019 23:52:21 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (706c338fef1d2b5a1ffafcd84da3d68a)] -> css selector: [tabindex='14']]

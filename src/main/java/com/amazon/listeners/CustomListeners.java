@@ -37,14 +37,11 @@ public class CustomListeners extends Page implements ITestListener, ISuiteListen
 		try {
 			Utilities.captureScreenshot();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
 		test.log(LogStatus.INFO, test.addScreenCapture(Utilities.screenshotName));
-		
-		
-		
+				
 		Reporter.log("Click to see Screenshot");
 		Reporter.log("<a target=\"_blank\" href="+Utilities.screenshotName+">Screenshot</a>");
 		Reporter.log("<br>");
@@ -55,7 +52,6 @@ public class CustomListeners extends Page implements ITestListener, ISuiteListen
 		rep.flush();
 
 		
-		// test.log(LogStatus.FAIL, test.addScreenCapture(TestUtil.screenshotName));
 	}
 
 	public void onTestSkipped(ITestResult result) {

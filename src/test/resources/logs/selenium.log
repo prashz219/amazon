@@ -1,16 +1,16 @@
-23:29:58,781 DEBUG devpinoyLogger:52 - Config file loaded !!!
-23:30:03,144 DEBUG devpinoyLogger:62 - Launching Chrome
-23:30:38,207 DEBUG devpinoyLogger:87 - Clicking on an Element : Proxy element for: DefaultElementLocator 'By.all({By.cssSelector: #nav-link-yourAccount [class='nav-line-2'],By.xpath: //*[contains(text(),'Hello, Sign in')]})'
-23:30:38,230 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-23:30:38,230 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-23:30:38,231 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-23:30:38,232 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:30:38,233 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/prash/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-23:30:39,125 DEBUG devpinoyLogger:52 - Config file loaded !!!
-23:30:41,210 DEBUG devpinoyLogger:62 - Launching Chrome
-23:30:45,245 DEBUG devpinoyLogger:87 - Clicking on an Element : [[ChromeDriver: chrome on XP (6427be9629287c4721b9c76479287173)] -> css selector: [tabindex='14']]
-23:30:45,246 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-23:30:45,246 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-23:30:45,246 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-23:30:45,247 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:30:45,247 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/prash/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:51:35,156 DEBUG devpinoyLogger:52 - Config file loaded !!!
+23:51:39,538 DEBUG devpinoyLogger:62 - Launching Chrome
+23:52:14,406 DEBUG devpinoyLogger:87 - Clicking on an Element : Proxy element for: DefaultElementLocator 'By.all({By.cssSelector: #nav-link-yourAccount [class='nav-line-2'],By.xpath: //*[contains(text(),'Hello, Sign in')]})'
+23:52:14,776 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:52:14,776 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+23:52:14,776 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:52:14,781 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:52:14,781 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/prash/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:52:15,660 DEBUG devpinoyLogger:52 - Config file loaded !!!
+23:52:17,710 DEBUG devpinoyLogger:62 - Launching Chrome
+23:52:21,885 DEBUG devpinoyLogger:87 - Clicking on an Element : [[ChromeDriver: chrome on XP (706c338fef1d2b5a1ffafcd84da3d68a)] -> css selector: [tabindex='14']]
+23:52:21,886 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+23:52:21,886 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+23:52:21,887 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:52:21,887 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:52:21,887 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/prash/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
