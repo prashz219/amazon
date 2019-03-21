@@ -21,4 +21,6 @@ public class HomePageLocators {
 	@FindBy(css="#nav-flyout-ya-signin .nav-action-inner")
 	public WebElement SignIn;
 	
+	@FindBy(css="[tabindex='14']")
+	public WebElement deliverTo;
 }

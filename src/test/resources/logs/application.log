@@ -1,4 +1,3 @@
-20/03/2019 22:33:37 devpinoyLogger Config file loaded !!!
-20/03/2019 22:33:40 devpinoyLogger Launching Chrome
-20/03/2019 22:33:45 devpinoyLogger Mouse Hover on Element : [[ChromeDriver: chrome on XP (2f7fe426f472a6998b57645cd4d04577)] -> xpath: //span[text()='Hello, Sign in']]
-20/03/2019 22:33:57 devpinoyLogger Clicking on an Element : Proxy element for: DefaultElementLocator 'By.cssSelector: #nav-flyout-ya-signin .nav-action-inner'
+21/03/2019 17:55:42 devpinoyLogger Config file loaded !!!
+21/03/2019 17:55:46 devpinoyLogger Launching Chrome
+21/03/2019 17:55:51 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (613c8adfb0e8f580623c53146f767e12)] -> css selector: [tabindex='14']]

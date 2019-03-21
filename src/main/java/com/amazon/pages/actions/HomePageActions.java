@@ -28,5 +28,12 @@ public class HomePageActions extends Page {
 		click(home.SignIn);
 		return this;
 	}
+	
+	public HomePageActions changeDeliverTo() {
+		
+		click(home.deliverTo);
+		
+		return this;
+	}
 
 }

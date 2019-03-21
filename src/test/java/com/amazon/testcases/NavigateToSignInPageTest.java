@@ -9,7 +9,7 @@ import com.amazon.pages.actions.HomePageActions;
 
 public class NavigateToSignInPageTest extends Page {
 
-	@Test
+	@Test(enabled=false)
 	public void navigateToSignInPageTest() {
 
 		HomePageActions home = new HomePageActions();

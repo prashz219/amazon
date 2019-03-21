@@ -1,2 +1,3 @@
-com\amazon\testcases\NavigateToSignInPageTest.class
 com\amazon\rough\TestClass.class
+com\amazon\testcases\ChangeDeliveryAddress.class
+com\amazon\testcases\NavigateToSignInPageTest.class
