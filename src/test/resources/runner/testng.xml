@@ -15,5 +15,10 @@
 		</classes>
 	</test> <!-- Test -->
 
+	<test name="Change Deliver To Address">
+		<classes>
+			<class name="com.amazon.testcases.ChangeDeliveryAddress" />
+		</classes>
+	</test> <!-- Test -->
 
 </suite> <!-- Suite -->

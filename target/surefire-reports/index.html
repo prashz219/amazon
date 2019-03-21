@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Amazon_Test_Automation">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Amazon_Test_Automation">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Test_Automation" title="com.amazon.testcases.NavigateToSignInPageTest" hash-for-method="navigateToSignInPageTest">navigateToSignInPageTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Test_Automation" title="com.amazon.testcases.ChangeDeliveryAddress" hash-for-method="changeDeliverTo">changeDeliverTo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Amazon_Test_Automation -->
@@ -120,14 +120,14 @@
           <div class="suite-Amazon_Test_Automation-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.amazon.testcases.NavigateToSignInPageTest</span>
+              <span class="class-name">com.amazon.testcases.ChangeDeliveryAddress</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="navigateToSignInPageTest">
-                  </a> <!-- navigateToSignInPageTest -->
-                  <span class="method-name">navigateToSignInPageTest</span>
+                  <a name="changeDeliverTo">
+                  </a> <!-- changeDeliverTo -->
+                  <span class="method-name">changeDeliverTo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -150,6 +150,11 @@
       &lt;class name=&quot;com.amazon.testcases.NavigateToSignInPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Navigate to Sign In Page Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Change Deliver To Address&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.amazon.testcases.ChangeDeliveryAddress&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Change Deliver To Address --&gt;
 &lt;/suite&gt; &lt;!-- Amazon Test Automation --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -162,6 +167,9 @@
             <ul>
               <li>
                 <span class="test-name">Navigate to Sign In Page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Change Deliver To Address (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,14 +197,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'navigateToSignInPageTest')
-data.setCell(0, 2, 'com.amazon.testcases.NavigateToSignInPageTest')
-data.setCell(0, 3, 21211);
+data.setCell(0, 1, 'changeDeliverTo')
+data.setCell(0, 2, 'com.amazon.testcases.ChangeDeliveryAddress')
+data.setCell(0, 3, 451);
 window.suiteTableData['Amazon_Test_Automation']= { tableData: data, tableDiv: 'times-div-Amazon_Test_Automation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 451 ms</span>
               <div id="times-div-Amazon_Test_Automation">
               </div> <!-- times-div-Amazon_Test_Automation -->
             </div> <!-- times-div -->
@@ -211,9 +219,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Amazon_Test_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amazon.testcases.NavigateToSignInPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">navigateToSignInPageTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Amazon_Test_Automation" class="panel">
@@ -222,18 +237,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.amazon.testcases.NavigateToSignInPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.amazon.testcases.ChangeDeliveryAddress</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
-                <span class="method-name">navigateToSignInPageTest</span>
-                <span class="method-start">7565 ms</span>
+                <span class="method-name">changeDeliverTo</span>
+                <span class="method-start">8033 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28970 ms</span>
+                <span class="method-start">8909 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
