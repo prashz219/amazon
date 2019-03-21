@@ -13,8 +13,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import com.amazon.utilities.ExtentManager;
 import com.relevantcodes.extentreports.ExtentReports;
@@ -23,7 +23,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 public class Page {
 
 	/*
-	 * Initializing WebDriver Logs WebDriverWait ExtentReports ExcelReader
+	 * Initializing WebDriver Logs WebDriverWait ExtentReports Screenshot ExcelReader
 	 * 
 	 * 
 	 */
@@ -38,8 +38,8 @@ public class Page {
 	public static ExtentTest test;
 	public static Actions action;
 	
-	@BeforeSuite
-	public void setUp() {
+	@BeforeClass
+	public void initConfiguration() {
 
 		try {
 			fis = new FileInputStream(
@@ -79,6 +79,7 @@ public class Page {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 	}
+	
 
 	public static void click(WebElement element) {
 
@@ -94,7 +95,7 @@ public class Page {
 		// test.log(LogStatus.INFO, "Clicking on : " + element);
 	}
 
-	@AfterSuite
+	@AfterClass
 	public void tearDown() {
 
 		driver.quit();

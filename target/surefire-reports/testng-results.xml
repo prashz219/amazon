@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Amazon Test Automation" duration-ms="937" started-at="2019-03-21T12:25:50Z" finished-at="2019-03-21T12:25:51Z">
+  <suite name="Amazon Test Automation" duration-ms="47238" started-at="2019-03-21T17:59:58Z" finished-at="2019-03-21T18:00:46Z">
     <groups>
     </groups>
-    <test name="Navigate to Sign In Page Test" duration-ms="6" started-at="2019-03-21T12:25:50Z" finished-at="2019-03-21T12:25:50Z">
-    </test> <!-- Navigate to Sign In Page Test -->
-    <test name="Change Deliver To Address" duration-ms="891" started-at="2019-03-21T12:25:50Z" finished-at="2019-03-21T12:25:51Z">
-      <class name="com.amazon.testcases.ChangeDeliveryAddress">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.testcases.ChangeDeliveryAddress@34cd072c]" name="setUp" is-config="true" duration-ms="7967" started-at="2019-03-21T12:25:42Z" finished-at="2019-03-21T12:25:50Z">
+    <test name="Navigate to Sign In Page Test" duration-ms="40344" started-at="2019-03-21T17:59:58Z" finished-at="2019-03-21T18:00:39Z">
+      <class name="com.amazon.testcases.NavigateToSignInPageTest">
+        <test-method status="PASS" signature="initConfiguration()[pri:0, instance:com.amazon.testcases.NavigateToSignInPageTest@1d29cf23]" name="initConfiguration" is-config="true" duration-ms="8427" started-at="2019-03-21T17:59:58Z" finished-at="2019-03-21T18:00:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="changeDeliverTo()[pri:0, instance:com.amazon.testcases.ChangeDeliveryAddress@34cd072c]" name="changeDeliverTo" duration-ms="451" started-at="2019-03-21T12:25:50Z" finished-at="2019-03-21T12:25:51Z">
+        </test-method> <!-- initConfiguration -->
+        <test-method status="PASS" signature="navigateToSignInPageTest()[pri:0, instance:com.amazon.testcases.NavigateToSignInPageTest@1d29cf23]" name="navigateToSignInPageTest" duration-ms="31003" started-at="2019-03-21T18:00:07Z" finished-at="2019-03-21T18:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignInPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testcases.NavigateToSignInPageTest@1d29cf23]" name="tearDown" is-config="true" duration-ms="685" started-at="2019-03-21T18:00:38Z" finished-at="2019-03-21T18:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.testcases.NavigateToSignInPageTest -->
+    </test> <!-- Navigate to Sign In Page Test -->
+    <test name="Change Deliver To Address" duration-ms="6882" started-at="2019-03-21T18:00:39Z" finished-at="2019-03-21T18:00:46Z">
+      <class name="com.amazon.testcases.ChangeDeliveryAddress">
+        <test-method status="PASS" signature="initConfiguration()[pri:0, instance:com.amazon.testcases.ChangeDeliveryAddress@5faeada1]" name="initConfiguration" is-config="true" duration-ms="5894" started-at="2019-03-21T18:00:39Z" finished-at="2019-03-21T18:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initConfiguration -->
+        <test-method status="PASS" signature="changeDeliverTo()[pri:0, instance:com.amazon.testcases.ChangeDeliveryAddress@5faeada1]" name="changeDeliverTo" duration-ms="226" started-at="2019-03-21T18:00:45Z" finished-at="2019-03-21T18:00:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeDeliverTo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testcases.ChangeDeliveryAddress@34cd072c]" name="tearDown" is-config="true" duration-ms="764" started-at="2019-03-21T12:25:51Z" finished-at="2019-03-21T12:25:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.testcases.ChangeDeliveryAddress@5faeada1]" name="tearDown" is-config="true" duration-ms="695" started-at="2019-03-21T18:00:45Z" finished-at="2019-03-21T18:00:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

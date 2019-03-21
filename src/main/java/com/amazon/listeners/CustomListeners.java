@@ -1,13 +1,17 @@
 package com.amazon.listeners;
 
+import java.io.IOException;
+
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.Reporter;
 
 import com.amazon.base.Page;
 import com.relevantcodes.extentreports.LogStatus;
+import com.amazon.utilities.Utilities;
 
 public class CustomListeners extends Page implements ITestListener, ISuiteListener {
 
@@ -28,10 +32,29 @@ public class CustomListeners extends Page implements ITestListener, ISuiteListen
 
 		// Extent Report
 		test.log(LogStatus.FAIL, result.getName().toUpperCase() + " Failed with exception: " + result.getThrowable());
+		
+		// Appending screenshot to extent report
+		try {
+			Utilities.captureScreenshot();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		test.log(LogStatus.INFO, test.addScreenCapture(Utilities.screenshotName));
+		
+		
+		
+		Reporter.log("Click to see Screenshot");
+		Reporter.log("<a target=\"_blank\" href="+Utilities.screenshotName+">Screenshot</a>");
+		Reporter.log("<br>");
+		Reporter.log("<br>");
+		Reporter.log("<a target=\"_blank\" href="+Utilities.screenshotName+"><img src="+Utilities.screenshotName+" height=200 width=200></img></a>");
+		
 		rep.endTest(test);
 		rep.flush();
 
-		// Appending screenshot to extent report
+		
 		// test.log(LogStatus.FAIL, test.addScreenCapture(TestUtil.screenshotName));
 	}
 

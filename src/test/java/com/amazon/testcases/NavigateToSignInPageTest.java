@@ -9,13 +9,14 @@ import com.amazon.pages.actions.HomePageActions;
 
 public class NavigateToSignInPageTest extends Page {
 
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void navigateToSignInPageTest() {
 		//Test to navigate to sign in page
 		HomePageActions home = new HomePageActions();
-		home.mouseHoverandSignIn();
+		home.gotoSigninPage();
 		String expectedTitle = "Amazon Sign In";
 		assertEquals(driver.getTitle(), expectedTitle);
+		
 
 	}
 

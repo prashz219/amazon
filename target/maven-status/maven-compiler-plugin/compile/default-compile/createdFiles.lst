@@ -1,5 +1,6 @@
 com\amazon\pages\locators\HomePageLocators.class
 com\amazon\base\Page.class
+com\amazon\utilities\Utilities.class
 com\amazon\pages\actions\HomePageActions.class
 com\amazon\listeners\CustomListeners.class
 com\amazon\utilities\ExtentManager.class
