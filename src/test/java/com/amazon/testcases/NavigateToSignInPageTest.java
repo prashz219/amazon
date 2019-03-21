@@ -11,7 +11,7 @@ public class NavigateToSignInPageTest extends Page {
 
 	@Test(enabled=false)
 	public void navigateToSignInPageTest() {
-
+		//Test to navigate to sign in page
 		HomePageActions home = new HomePageActions();
 		home.mouseHoverandSignIn();
 		String expectedTitle = "Amazon Sign In";
